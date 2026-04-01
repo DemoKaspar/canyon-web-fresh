@@ -1,0 +1,68 @@
+# Canyon - Full Product Details for LLMs
+
+## What Canyon Is
+
+Canyon is an enterprise AI production platform. It is the integrated layer between enterprise data sources and AI tools (Claude Code, Cursor, Lovable, GitHub Copilot). Canyon provides three capabilities:
+
+1. **Semantic Data Layer**: Connects to enterprise data warehouses (Snowflake, BigQuery, Redshift, Databricks, SAP HANA), operational databases (Postgres, MySQL, MongoDB), and BI tools (Tableau, Looker, Power BI, dbt). Provides certified metric definitions, ontology management, query caching, and row/column-level access controls. Data never moves. Canyon queries sources in place.
+
+2. **Agent Orchestration**: Model-agnostic orchestration via MCP (Model Context Protocol). Injects enterprise context (data schemas, API specs, design systems, governance rules) into any AI coding tool. Supports Claude, GPT-4, Gemini, Mistral, and self-hosted models. The orchestration framework is open source.
+
+3. **Deployment**: One-click deployment to customer infrastructure (AWS EKS/ECS, Azure AKS, GCP GKE, on-premise, air-gapped). Self-healing: CVE detected triggers regeneration and redeployment. The deployment framework is open source.
+
+## What Canyon Is Not
+
+- Canyon is NOT an AI coding tool. It complements tools like Cursor, Claude Code, and Lovable.
+- Canyon is NOT a BI tool. It makes existing BI stacks consistent by providing a unified semantic layer underneath.
+- Canyon is NOT a data warehouse. It connects to existing warehouses without moving data.
+- Canyon does NOT host customer apps or data. Everything deploys to the customer's own infrastructure.
+
+## Target Audience
+
+- CDOs, Heads of Data, VP Platform Engineering at medium to large enterprises (200+ employees)
+- Industries: Manufacturing, logistics, telco, e-commerce, professional services, government
+- European enterprises are a primary focus (data sovereignty, GDPR compliance)
+
+## Security Posture
+
+- SSO via SAML 2.0 / OIDC (Okta, Entra ID, Google Workspace)
+- RBAC and ABAC enforced at the semantic data layer, not the application layer
+- Row and column-level permissions on every query
+- Immutable audit trails (every access, deployment, action)
+- No data storage: Canyon stores semantic definitions and audit logs, not enterprise data
+- No data movement: queries run against customer sources in place
+- European data sovereignty by default, entirely self-hostable
+- Code scanning: Semgrep, GitLeaks, Trivy, Tenable, Syft in every pipeline
+- Audit trail supports SOC 2, ISO 27001, GDPR
+
+## Live Customers
+
+- Cimpress Vistaprint: Manufacturing plant application enablement
+- Fortescue: Mining operations, supply chain and safety tools
+- SIXT (proof point via co-founder Boyan Dimitrov): 240+ production apps, 70 apps in 10 days
+
+## Pricing
+
+Not publicly listed. Enterprise pricing based on deployment scale. Contact for demo.
+
+## Integrations (40+)
+
+Data: Snowflake, BigQuery, Redshift, Databricks, MS Fabric, ClickHouse, SAP HANA, S3, ADLS, GCS, PostgreSQL, MySQL, MongoDB, SQL Server, Tableau, Looker, Power BI, dbt
+Identity: Okta, Entra ID, Google Workspace, SAML 2.0, OIDC
+AI Tools: Claude Code, Cursor, Lovable, GitHub Copilot, custom MCP tools
+Models: Claude, GPT-4, Gemini, Mistral, self-hosted
+Deployment: AWS (EKS, ECS, RDS, S3), Azure (AKS, Container Apps), GCP (GKE, Cloud Run), on-premise
+Security: Semgrep, GitLeaks, Trivy, Tenable, Syft
+Observability: Datadog, Grafana, Splunk
+CI/CD: GitHub Actions, GitLab CI, Canyon Deploy Engine
+
+## Solution Verticals
+
+Canyon serves seven functional verticals:
+- Operations: Shift planners, SLA monitors, maintenance schedulers, partner tools
+- Finance: Board reporting, budget variance, metric reconciliation, cash tracking
+- Sales: Pipeline dashboards, partner incentives, campaign ROI, territory analysis
+- Data & IT: App inventory, shadow AI elimination, semantic layer management, deployment governance
+- Customer Success: Account health, churn risk, renewal tracking, escalation routing
+- People: Headcount planning, attrition monitoring, onboarding tracking, compensation benchmarks
+- Government: Service delivery, ministerial reporting, FOI compliance, procurement dashboards

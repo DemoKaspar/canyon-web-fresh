@@ -1,0 +1,31 @@
+# Canyon
+
+> Enterprise AI Production Platform. Certified data. Governed access. Deployed to your infrastructure.
+
+Canyon is the integrated platform that sits between enterprise data sources and AI tools. It provides a semantic data layer (certified metrics, governed access), agent orchestration (model-agnostic context injection via MCP), and deployment infrastructure (your VPC, one click, self-healing).
+
+Canyon complements AI coding tools like Claude Code, Cursor, and Lovable. It does not replace them. Canyon makes enterprise data safely accessible to those tools and deploys the resulting applications to your infrastructure with governance enforced by default.
+
+## Key pages
+
+- [Product overview](https://canyon.tech/product): Three layers, one platform
+- [Semantic Data Layer](https://canyon.tech/product/semantic-data-layer): Certified metrics, query caching, ontology management
+- [Agent Orchestration](https://canyon.tech/product/agent-orchestration): MCP-based context injection, open source
+- [Deployment](https://canyon.tech/product/deployment): AWS, Azure, GCP, on-premise, air-gapped
+- [Security](https://canyon.tech/security): SSO, RBAC, ABAC, audit trails, data sovereignty
+- [Examples](https://canyon.tech/examples): Real apps built with Canyon across operations, finance, sales, CS, people, data/IT, government
+- [Integrations](https://canyon.tech/integrations): 40+ enterprise tool integrations
+- [Full details for LLMs](https://canyon.tech/llms-full.txt)
+
+## Company
+
+- Founded by Kaspar von Grunberg and Boyan Dimitrov (ex-CTO SIXT)
+- Built on the foundation of Humanitec (platform engineering, 240+ production apps at SIXT)
+- Headquartered in Berlin, Germany
+- European data sovereignty by default
+- Operating under PlatCo Group
+
+## Contact
+
+- Website: https://canyon.tech
+- Demo: https://canyon.tech (Book a Demo button)

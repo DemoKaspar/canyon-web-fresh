@@ -1,0 +1,28 @@
+* { box-sizing: border-box; }
+::-webkit-scrollbar { width: 0px; }
+::-webkit-scrollbar-thumb { background: transparent; }
+body { font-family: 'Outfit', sans-serif; }
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(16px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes pulse {
+  0%, 100% { opacity: .3; transform: scale(.8); }
+  50% { opacity: 1; transform: scale(1.2); }
+}
+
+@media (max-width: 768px) {
+  .nav-items { display: none !important; }
+  .hamburger { display: flex !important; }
+  .hero-title { font-size: 28px !important; }
+  .section-title { font-size: 22px !important; }
+  .grid-2 { grid-template-columns: 1fr !important; }
+  .grid-3 { grid-template-columns: 1fr 1fr !important; }
+  .grid-4 { grid-template-columns: 1fr 1fr !important; }
+  .sidebar { display: none !important; }
+  .filter-pills { overflow-x: auto !important; flex-wrap: nowrap !important; }
+}
+@media (max-width: 480px) {
+  .grid-3 { grid-template-columns: 1fr !important; }
+}
